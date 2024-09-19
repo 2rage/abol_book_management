@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "abol-book-management"
+version = "0.1.0"
+description = ""
+authors = ["2rage <the2rage@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2-binary = "^2.9.9"
+pydantic-settings = "^2.5.2"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
