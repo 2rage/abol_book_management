@@ -2,7 +2,6 @@ import grpc
 from concurrent import futures
 from grpc_reflection.v1alpha import reflection
 from grpc_service import books_pb2, books_pb2_grpc
-from sqlalchemy.orm import Session
 from web_app.dependencies import get_db
 from web_app.models import Book
 

@@ -1,4 +1,4 @@
-from sqlalchemy.orm import sessionmaker, Session
+from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from web_app.config import settings
 
